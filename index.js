@@ -31,3 +31,9 @@ function clearInput(){
         passwordGenerator.value = "";
     }
 }
+
+function copyPassword(){
+    passwordGenerator.select();
+    passwordGenerator.setSelectionRange(0, 9999999);
+    document.execCommand("copy")
+}
