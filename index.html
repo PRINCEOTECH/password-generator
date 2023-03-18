@@ -10,14 +10,21 @@
 <body>
     <div class="container">
         <div class="content">
-            <input type="text" placeholder="Enter Password" id="password">
+            <input type="password" placeholder="Enter Password" id="password">
         </div>
+        <button id="Show" onclick="show()">Show</button>
+        
         <div class="buttons">
-            <button id="btn" onclick="clearInput()">Submit</button>
+            <button id="btn" onclick="clearInput()">Clear</button>
+            <button id="btn" onclick="checkPassword()">Submit</button>
             <button id="btn-generator" onclick="generator()">Generate Password</button>
             <button id="btn-copy" onclick="copyPassword()">Copy Password</button>
+            
+            
         </div>
+        
     </div>
+    <p id="err"></p>
 
     <script src="index.js"></script>
 </body>

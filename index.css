@@ -71,3 +71,19 @@
     border: none;
     border-radius: 5px;
 }
+#Show{
+    position: relative;
+    display: flex;
+    margin: 26px;
+    border: none;
+    border-radius: 2px;
+    font-size: 500;
+    margin-right: 0;
+
+}
+
+
+#err{
+    position: relative;
+    text-align: center;
+}
